@@ -2,7 +2,7 @@
 <!--
   Infographic Title: 생성형 AI, 우리는 어떻게 활용해야 할까? - 1학년 4반 1조 연구 보고서 기반
   Date Created: 2025-05-30
-  Version: 1.0
+  Version: 1.1 (Word clouds added)
   Student Group: 1학년 4반 1조 (신홍명, 김연서, 김희성, 조정모)
   Project Description: 학생 공동 조사 보고서 기반 HTML 인포그래픽. 생성형 AI 사용에 대한 학생들의 인식, 활용 현황, 문제점 및 개선 방안을 시각화하여 제시합니다.
 -->
@@ -106,6 +106,7 @@
     </style>
 </head>
 <body class="antialiased">
+    <!-- Header Section -->
     <header class="bg-gradient-to-r from-[#2A62B6] to-[#4ECDC4] text-white py-8 px-4 text-center">
         <div class="container mx-auto">
             <h1 class="text-4xl font-bold mb-2">생성형 AI, 우리는 어떻게 활용해야 할까?</h1>
@@ -114,8 +115,10 @@
         </div>
     </header>
 
+    <!-- Main Content -->
     <main class="container mx-auto p-4 md:p-8">
 
+        <!-- Section 1: 조사 동기와 목적 -->
         <section id="motivation-purpose" class="mb-12">
             <h2 class="section-title">1. 조사 동기와 목적</h2>
             <div class="grid md:grid-cols-2 gap-6">
@@ -131,6 +134,7 @@
             </div>
         </section>
 
+        <!-- Section 2: 조사 계획 -->
         <section id="research-plan" class="mb-12">
             <h2 class="section-title">2. 조사 계획</h2>
             <div class="card">
@@ -155,9 +159,11 @@
             </div>
         </section>
 
+        <!-- Section 3: 조사 결과 -->
         <section id="research-results" class="mb-12">
             <h2 class="section-title">3. 조사 결과</h2>
             
+            <!-- Visualization: Bar Chart - Q1. 문제 해결 시 AI 무조건 사용 여부 응답 분포 -->
             <div class="mb-10">
                 <h3 class="text-2xl font-semibold mb-4 text-center text-[#2A62B6]">가. 설문조사 분석: Q1. 문제 해결 시 AI를 무조건 사용하는가?</h3>
                 <div class="chart-container w-full max-w-2xl mx-auto h-80 md:h-96 lg:h-[450px]">
@@ -169,6 +175,7 @@
                 </div>
             </div>
 
+            <!-- Visualization: Bar Chart - Q2. AI의 장단점을 알고 있는가? 응답 분포 -->
             <div class="mb-10">
                 <h3 class="text-2xl font-semibold mb-4 text-center text-[#2A62B6]">Q2. AI의 장단점을 알고 있는가?</h3>
                 <div class="chart-container w-full max-w-2xl mx-auto h-80 md:h-96 lg:h-[450px]">
@@ -180,6 +187,7 @@
                 </div>
             </div>
 
+            <!-- Visualization: Bar Chart - Q3. AI의 답변이 도움이 되었는가? 응답 분포 -->
             <div class="mb-10">
                 <h3 class="text-2xl font-semibold mb-4 text-center text-[#2A62B6]">Q3. AI의 답변이 도움이 되었는가?</h3>
                 <div class="chart-container w-full max-w-2xl mx-auto h-80 md:h-96 lg:h-[450px]">
@@ -191,11 +199,14 @@
                 </div>
             </div>
 
+            <!-- Visualization: HTML/CSS Diagram - 인터뷰 분석 요약 -->
             <div>
                 <h3 class="text-2xl font-semibold mb-6 text-center text-[#2A62B6]">나. 인터뷰 분석</h3>
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="card">
                         <h4 class="text-xl font-bold mb-3 text-[#4ECDC4]">첫 번째 인터뷰: 공은성 (17세, 남)</h4>
+                        <!-- Word Cloud Image for Interview 1. Replace src with your actual image path. -->
+                        <img src="src/제목 없음.jpg" alt="공은성 인터뷰 워드 클라우드" class="w-full h-auto max-h-56 object-contain rounded-xl my-4 shadow-md bg-gray-100" onerror="this.onerror=null;this.src='https://placehold.co/600x300/E0F2FE/2A62B6?text=Word+Cloud+%231';">
                         <p class="mb-2">친구 추천으로 AI 사용을 시작했으며, 국어 글쓰기와 코딩 등 다양한 과목에 활용한다. 특히 국어 글쓰기에서 글의 완성도를 높이고, 코딩에서 효율적인 코드 작성에 도움을 받는다.</p>
                         <div class="quote-box">
                             <p class="italic">"AI를 엄마보다 더 믿는다."</p>
@@ -206,6 +217,8 @@
                     </div>
                     <div class="card">
                         <h4 class="text-xl font-bold mb-3 text-[#4ECDC4]">두 번째 인터뷰: 김진수 (17세, 남)</h4>
+                        <!-- Word Cloud Image for Interview 2. Replace src with your actual image path. -->
+                        <img src="src/제목 없음.jpg" alt="김진수 인터뷰 워드 클라우드" class="w-full h-auto max-h-56 object-contain rounded-xl my-4 shadow-md bg-gray-100" onerror="this.onerror=null;this.src='https://placehold.co/600x300/E0F2FE/2A62B6?text=Word+Cloud+%232';">
                         <p class="mb-2">친구 추천으로 AI 사용을 시작했으며, 성공적인 직업생활과 국어 과목에 활용한다. 과제 수행 중 고민되거나 만들어야 할 것이 있을 때 AI가 대신 생각해주거나 만들어주는 데 사용한다고 답했다.</p>
                          <div class="quote-box">
                             <p class="italic">"AI를 90% 정도 믿는다."</p>
@@ -218,6 +231,7 @@
             </div>
         </section>
 
+        <!-- Section 4: 결론 및 제언 -->
         <section id="conclusion-recommendations" class="mb-12">
             <h2 class="section-title">4. 결론 및 제언</h2>
             <div class="card">
@@ -240,6 +254,7 @@
             </div>
         </section>
 
+        <!-- Section 5: 참고 자료 -->
         <section id="references" class="mb-12">
             <h2 class="section-title">5. 참고 자료</h2>
             <div class="card">
@@ -255,6 +270,7 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="bg-gray-800 text-white py-6 px-4 text-center">
         <p>&copy; 2025 미림마이스터고 1학년 4반 1조 (신홍명, 김연서, 김희성, 조정모). All rights reserved.</p>
         <p class="text-sm mt-1">본 인포그래픽은 학생 공동 조사 보고서를 기반으로 제작되었습니다.</p>
